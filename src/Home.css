@@ -1,0 +1,104 @@
+body {
+    min-height: 400px;
+    background-color: beige;
+  }
+  .header{
+    height: 100px;
+    background-color: #222222;
+    color: rgb(240,244,245);
+    margin-top:-63px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .my-info{
+    white-space: pre-wrap;
+    display: flex;
+    flex-flow:column;
+  }
+  .vacation{
+    white-space: pre-wrap;
+    display:flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+  }
+  .todo-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 20px 0;
+    width: 70%;
+    border-bottom: 1px solid #cecece;
+    font-family: Roboto, sans-serif;
+    font-weight: 15px;
+    color: #333333;
+  }
+  .todo-list{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #efefef;
+    box-shadow:
+    0 1px 1px rgba(0,0,0,0.15),
+    0 10px 0 -5px #eee,
+    0 10px 1px -4px rgba(0,0,0,0.15),
+    0 20px 0 -10px #eee,
+    0 20px 1px -9px rgba(0,0,0,0.15);
+    padding: 30px;
+  }
+  input[type=checkbox]{
+    margin-right: 10px;
+    font-size: 30px;
+  }
+  input[type=checkbox]:focus{
+    outline: 0;
+  }
+  /*.main{
+    height: 200px;
+    background-color: #222222;
+    color: rgb(240,244,245);
+    margin-bottom:15%;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }*/
+  .jokes{
+    white-space: pre-wrap;
+    display: flex;
+    flex-flow:column;
+  }
+  .poke{
+      text-align: center;
+  }
+  .footer, .push{
+    position:relative;
+    width: 100%;
+    bottom: -50px;
+    min-height: 50px;
+    margin: 0 auto -50px;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    color: aliceblue;
+  }
+    /*
+  .wrapper {
+      min-height: 100%;
+      margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height 
+  }
+  */
+  /* '.push' must be the same height as 'footer'*/
+  /*
+  footer, .push {
+    height: 50px; 
+  }
+  */
